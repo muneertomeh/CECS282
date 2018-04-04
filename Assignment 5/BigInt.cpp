@@ -336,7 +336,7 @@ static vector<int> maxIntThingy = { 7,4,6,3,8,4,7,4,1,2 };
 	//determines if a BigInt less than another BigInt
 	bool BigInt ::operator<(BigInt other) {
 		BigInt current(*this);
-		//if there are the same size...
+		//if they're the same size...
 		if (current.myVector.size() == other.myVector.size()) {
 			if (current.myVector == other.myVector) {
 				return false;
